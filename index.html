@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>2048</title>
+
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">2048</h1>
+            <div class="scores-container">
+                <div class="score-container">0</div>
+                <div class="best-container">0</div>
+            </div>
+        </div>
+
+        <div class="above-game">
+            <p class="game-intro">Sayıları birleştirin ve <strong>2048 karesine ulaşın ! </strong></p>
+            <a class="restart-button">Yeni Oyun🔥</a>
+        </div>
+
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="keep-playing-button">Devam Et..☑️</a>
+                    <a class="retry-button">Tekrar Deneyin..🤷‍♂️</a>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+
+            <div class="tile-container">
+
+            </div>
+        </div>
+
+        <p class="game-explanation">
+            <strong class="important">Nasıl Oynanır:</strong> Taşları hareket ettirmek için <strong> ok tuşlarını </strong> kullanın.Aynı numaraya sahip iki karo dokunduğunda, <strong>bir araya gelirler !</strong>
+        </p>
+        <hr>
+        <p>
+            <strong class="important">Not :</strong> Bu site 2048'in resmi sürümüdür. Telefonunuzda <a href="https://fcomsecen.github.io/fcomsecenglish/">https://fcomsecen.github.io/fcomsecenglish/.</a> üzerinden oynayabilirsiniz . Diğer tüm uygulamalar
+            veya siteler türev veya sahtedir ve dikkatli kullanılmalıdır.</p>
+        <hr>
+        <p>
+            <a href="https://fcomsecen.github.io/fcomsecenglish/" target="_blank">FCOMSEC</a> Tarafından Yapılmıştır.
+            <a href="https://fcomsecen.github.io/fcomsecenglish/" target="_blank">
+                <p>2020 © F C O M P T E R S E C U R İ T Y</p>
+            </a> tabanlı ve kavramsal olarak matematiksel zeka oyunudur.
+        </p>
+    </div>
+
+    <script src="js/bind_polyfill.js"></script>
+    <script src="js/classlist_polyfill.js"></script>
+    <script src="js/animframe_polyfill.js"></script>
+    <script src="js/keyboard_input_manager.js"></script>
+    <script src="js/html_actuator.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/local_storage_manager.js"></script>
+    <script src="js/game_manager.js"></script>
+    <script src="js/application.js"></script>
+</body>
+
+</html>
